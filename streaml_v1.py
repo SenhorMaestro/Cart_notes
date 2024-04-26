@@ -65,7 +65,7 @@ def cart_config(df2):
                             "quantity": st.column_config.NumberColumn(
                 "Quantity or weight",
                 help="Количество товаров или вес (для овощей и фруктов)",
-                min_value=1,
+                min_value=0,
                 max_value=20,
                 format="%.2f",
             )
